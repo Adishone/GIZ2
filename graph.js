@@ -32,7 +32,7 @@ function findBridges(graph, numberOfVertices)
 	}
 	$("#bridges").append("Mosty:");
 	_.forEach(bridges, function(value) {
-		$("#bridges").append("<br />["+value+"]");
+		$("#bridges").append("<br />"+value[0]+" "+value[1]);
 	});
 	console.log(bridges);
 }
